@@ -50,7 +50,7 @@ const TestPage = () => {
                     <button onClick={handleTestText} style={{ padding: "10px", margin: "10px" }}>Test text</button>
                 </div>
                 <div>
-                    <input defaultValue={DEFAULT_SPEED}  ref={speedInputRef} placeholder="ms" type={"number"} onChange={handleSearch} style={{ padding: "10px", margin: "10px" }}></input>
+                    <input defaultValue={DEFAULT_SPEED}  ref={speedInputRef} placeholder="ms" type={"number"} style={{ padding: "10px", margin: "10px" }}></input>
                     <button  onClick={handleTestSpeed} style={{ padding: "10px", margin: "10px" }}>Test speed</button>
                 </div>
 
